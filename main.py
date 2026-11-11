@@ -1,3 +1,4 @@
+# THIS SCRIPT IS FOR TESTING PURPOSES ONLY
 import pygame
 
 pygame.init()
@@ -34,7 +35,7 @@ class CharacterBody:
         
   
 
-playerSprite = Sprite("c.png", (10,10))
+playerSprite = Sprite("ASSETS/c.png", (10,10))
 
 player = CharacterBody((0,0))
 player.append(playerSprite)
